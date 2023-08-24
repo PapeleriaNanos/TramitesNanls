@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Kiosko",
+    "synonyms": [ "Kiosko" ],
+    "languageCode": "es"
+  }, {
+    "value": "Modulo",
+    "synonyms": [ "Modulo Movil", "modulo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Oficinas de Gobierno",
+    "synonyms": [ "oficinas", "Oficinas de Gobierno", "oficinas de atencion" ],
+    "languageCode": "es"
+  } ]
+}

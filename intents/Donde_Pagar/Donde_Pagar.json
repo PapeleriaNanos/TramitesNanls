@@ -1,0 +1,14 @@
+{
+  "name": "97df5b67-e3d3-44a7-80eb-4ac33c1e707c",
+  "displayName": "Donde_Pagar",
+  "parameters": [ {
+    "id": "lugar-pago",
+    "entityType": "@lugar-pago"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  } ],
+  "priority": 500000,
+  "description": "Customer wants to know where they can pay.",
+  "numTrainingPhrases": 8
+}

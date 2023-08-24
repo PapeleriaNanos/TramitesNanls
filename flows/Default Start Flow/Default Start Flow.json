@@ -1,0 +1,66 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "condition": "TRUE",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Gracias por comunicarte con Trámites Nanos, yo soy SANDY, tu Gestor de Tramites Virtual. \n📠🖥️☎️📃🚗🏍️📝" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "¿Cual Tramite?",
+    "name": "5db4b6c5-487a-429f-9ecd-d36bb5986b3b"
+  }, {
+    "intent": "Agente.En.Vivo",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "LIveAgent",
+    "name": "c6f51b6e-669d-4ac9-896f-c92e2e5a6015"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "Una disculpa pero no entendi. Puedes decirme el NUMERO o NOMBRE del tramite nuevamente porfa." ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "fd4e914b-9ae4-4df4-802a-04d43e71dd64"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "40da35f2-759c-4922-935d-43955aec9bc9"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Perdon por seguir sin entender, checa que todo este escrito bien o puedes decir GESTOR para hablar con un de nuestros gestores." ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "1266c7f0-45b4-40c0-aa9c-3a1640c101de"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "transitionRouteGroups": [ "TramitesFrequentes" ]
+}

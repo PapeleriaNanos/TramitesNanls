@@ -1,0 +1,326 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "carro",
+      "parameterId": "tipo-vehiculo",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "usado",
+      "parameterId": "condicion-veh",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alta placas",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cambio propietario",
+      "parameterId": "tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "baja",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alta de placas",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de "
+    }, {
+      "text": "un",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " vehiculo "
+    }, {
+      "text": "nuevo",
+      "parameterId": "condicion-veh"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "acabo de comprar "
+    }, {
+      "text": "un",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "carro",
+      "parameterId": "tipo-vehiculo"
+    }, {
+      "text": " "
+    }, {
+      "text": "nuevo",
+      "parameterId": "condicion-veh"
+    }, {
+      "text": " y lo quiero dar de "
+    }, {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito hacer "
+    }, {
+      "text": "un",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "cambio de propietario",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de una "
+    }, {
+      "text": "moto",
+      "parameterId": "tipo-vehiculo",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "usada",
+      "parameterId": "condicion-veh"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tramite de placas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "baja",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de una ",
+      "auto": true
+    }, {
+      "text": "moto",
+      "parameterId": "tipo-vehiculo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de ",
+      "auto": true
+    }, {
+      "text": "un",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "carro",
+      "parameterId": "tipo-vehiculo"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "usado",
+      "parameterId": "condicion-veh"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "placas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "buenas ",
+      "auto": true
+    }, {
+      "text": "tardes"
+    }, {
+      "text": " parar sacar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " cita para dar de ",
+      "auto": true
+    }, {
+      "text": "baja un vehiculo",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "el tramite seria de "
+    }, {
+      "text": "baja",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de placas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "compramos "
+    }, {
+      "text": "un",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "carrito",
+      "parameterId": "tipo-vehiculo"
+    }, {
+      "text": " y queremos hacer "
+    }, {
+      "text": "cambio de propietario",
+      "parameterId": "tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "perdi "
+    }, {
+      "text": "una",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " placa entonces quiero agendar cita de "
+    }, {
+      "text": "reposicion"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cita placas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cita placas "
+    }, {
+      "text": "guanajuato",
+      "parameterId": "municipio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "como se saca la cita ",
+      "auto": true
+    }, {
+      "text": "para"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "placas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "ustedes me pueden agendar cita en "
+    }, {
+      "text": "san miguel",
+      "parameterId": "municipio"
+    }, {
+      "text": " para dar de "
+    }, {
+      "text": "baja",
+      "parameterId": "tramite"
+    }, {
+      "text": " una "
+    }, {
+      "text": "camioneta",
+      "parameterId": "tipo-vehiculo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "aqui puedo generar "
+    }, {
+      "text": "una",
+      "parameterId": "number"
+    }, {
+      "text": " cita para "
+    }, {
+      "text": "alta de placas",
+      "parameterId": "tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero agendar "
+    }, {
+      "text": "una",
+      "parameterId": "number"
+    }, {
+      "text": " cita para placas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "entities": [ {
+    "value": "INE",
+    "synonyms": [ "INE", "instituto nacional electorial" ],
+    "languageCode": "es"
+  }, {
+    "value": "ISSSTE",
+    "synonyms": [ "ISSSTE" ],
+    "languageCode": "es"
+  }, {
+    "value": "IMSS",
+    "synonyms": [ "IMSS", "seguro social" ],
+    "languageCode": "es"
+  }, {
+    "value": "SAT",
+    "synonyms": [ "SAT" ],
+    "languageCode": "es"
+  }, {
+    "value": "SEG",
+    "synonyms": [ "secretaria de educacion guanajuato", "SEG" ],
+    "languageCode": "es"
+  }, {
+    "value": "SEP",
+    "synonyms": [ "secretaria de educacion publica", "SEP" ],
+    "languageCode": "es"
+  }, {
+    "value": "FSPE",
+    "synonyms": [ "FSPE" ],
+    "languageCode": "es"
+  }, {
+    "value": "SMOAT",
+    "synonyms": [ "SMOAT" ],
+    "languageCode": "es"
+  }, {
+    "value": "VITAT",
+    "synonyms": [ "VITAT" ],
+    "languageCode": "es"
+  }, {
+    "value": "FGEG",
+    "synonyms": [ "FGEG", "fiscalia general del estado de guanajuato" ],
+    "languageCode": "es"
+  }, {
+    "value": "RENAPO",
+    "synonyms": [ "RENAPO" ],
+    "languageCode": "es"
+  }, {
+    "value": "STRC",
+    "synonyms": [ "STRC", "secretaria de transparencia" ],
+    "languageCode": "es"
+  }, {
+    "value": "REPUVE",
+    "synonyms": [ "REPUVE" ],
+    "languageCode": "es"
+  }, {
+    "value": "CFE",
+    "synonyms": [ "CFE", "comision federal", "comision federal de electricidad" ],
+    "languageCode": "es"
+  } ]
+}

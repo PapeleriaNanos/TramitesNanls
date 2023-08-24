@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Carro",
+    "synonyms": [ "carrito", "Carro" ],
+    "languageCode": "es"
+  }, {
+    "value": "Camioneta",
+    "synonyms": [ "Camioneta", "camionetita" ],
+    "languageCode": "es"
+  }, {
+    "value": "Moto",
+    "synonyms": [ "Moto", "motocicleta" ],
+    "languageCode": "es"
+  }, {
+    "value": "Remolque",
+    "synonyms": [ "Remolque", "trailer" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cuatri Moto",
+    "synonyms": [ "Cuatri Moto" ],
+    "languageCode": "es"
+  }, {
+    "value": "Camion",
+    "synonyms": [ "Camion", "tractor" ],
+    "languageCode": "es"
+  } ]
+}

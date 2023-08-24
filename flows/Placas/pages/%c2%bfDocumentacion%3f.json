@@ -1,0 +1,23 @@
+{
+  "name": "cf4ebcdc-d7f5-44c2-b70b-4b71a47c3f99",
+  "displayName": "¿Documentacion?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "¿Ya conoces los documentos que se tienen que entregar el dia de tu cita?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Requisitos Cita",
+    "name": "475ca950-15cf-4c8a-87b4-32381642a2be"
+  } ]
+}

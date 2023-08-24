@@ -1,0 +1,11 @@
+{
+  "name": "827675da-6d31-4c84-88ba-ce78cee02ceb",
+  "displayName": "Atras",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "Customer wants to go back 1 step in the conversation .",
+  "numTrainingPhrases": 10
+}

@@ -1,0 +1,7 @@
+{
+  "name": "a761eba4-21f4-4136-8d76-c5b200f6e714",
+  "displayName": "Start_Menu",
+  "priority": 500000,
+  "description": "Return to the start menu.",
+  "numTrainingPhrases": 5
+}

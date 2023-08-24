@@ -1,0 +1,15 @@
+{
+  "name": "1e0c317e-a852-4bc3-9719-465c3a490d08",
+  "displayName": "Requisitos",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "TRUE",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Ya Pago?",
+    "name": "9a81ebb8-04a2-4975-89ba-91c9708cffc3"
+  } ]
+}

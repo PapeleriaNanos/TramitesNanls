@@ -1,0 +1,24 @@
+{
+  "name": "3d19a511-4a10-4422-8f88-a8fd256536b2",
+  "displayName": "Usado",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ALTA DE VEHICULO USADO, es correcto?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Placas GTO/OTRO",
+    "name": "f8f3f7af-145c-4922-b50f-7a4e4275f88c"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "b236b695-c841-4896-beaa-999cab4e04f0",
+  "displayName": "Falta_Documento",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

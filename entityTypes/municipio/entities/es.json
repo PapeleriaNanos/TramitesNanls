@@ -1,0 +1,67 @@
+{
+  "entities": [ {
+    "value": "Irapuato",
+    "synonyms": [ "4 vias", "cibeles", "crit", "cuatro vias", "Irapuato", "plaza 4 vias", "san juan bosco" ],
+    "languageCode": "es"
+  }, {
+    "value": "Guanajuato",
+    "synonyms": [ "Guanajuato", "plaza pozuelos", "pozuelos" ],
+    "languageCode": "es"
+  }, {
+    "value": "Silao",
+    "synonyms": [ "puerto interior", "Silao" ],
+    "languageCode": "es"
+  }, {
+    "value": "Salamanca",
+    "synonyms": [ "Salamanca" ],
+    "languageCode": "es"
+  }, {
+    "value": "Leon",
+    "synonyms": [ "altacia", "Leon", "plaza mayor", "soriana satelite", "plaza cayro" ],
+    "languageCode": "es"
+  }, {
+    "value": "San Miguel de Allende",
+    "synonyms": [ "San Miguel de Allende" ],
+    "languageCode": "es"
+  }, {
+    "value": "Purisima del Rincon",
+    "synonyms": [ "Purisima del Rincon" ],
+    "languageCode": "es"
+  }, {
+    "value": "Abasolo",
+    "synonyms": [ "Abasolo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Romita",
+    "synonyms": [ "Romita" ],
+    "languageCode": "es"
+  }, {
+    "value": "Celaya",
+    "synonyms": [ "Celaya" ],
+    "languageCode": "es"
+  }, {
+    "value": "Acambaro",
+    "synonyms": [ "Acambaro" ],
+    "languageCode": "es"
+  }, {
+    "value": "San Francisco del Rinco",
+    "synonyms": [ "San Francisco del Rinco" ],
+    "languageCode": "es"
+  }, {
+    "value": "Apaseo el Grande",
+    "synonyms": [ "Apaseo el Grande" ],
+    "languageCode": "es"
+  }, {
+    "value": "Apaseo el Alto",
+    "synonyms": [ "Apaseo el Alto" ],
+    "languageCode": "es"
+  }, {
+    "value": "Yuriria",
+    "synonyms": [ "Yuriria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Penjamo",
+    "synonyms": [ "Penjamo" ],
+    "languageCode": "es"
+  } ]
+}

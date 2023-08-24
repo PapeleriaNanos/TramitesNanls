@@ -1,0 +1,45 @@
+{
+  "name": "3e795d9e-20ea-4719-b147-0a206bd0c702",
+  "displayName": "Persona Fisica/Moral",
+  "form": {
+    "parameters": [ {
+      "displayName": "tipo-persona",
+      "required": true,
+      "entityType": "@tipo-persona",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.invalid-parameter",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "¿El tramite es para una persona FISICA o MORAL?" ]
+              },
+              "languageCode": "es"
+            } ]
+          },
+          "name": "c764cfda-6069-4a3a-b6cd-8db3e1135eef"
+        } ]
+      },
+      "redact": true
+    }, {
+      "displayName": "tramite",
+      "entityType": "@tramite",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Con todo gusto te puedo ayudar a agendar tu cita de placas. ¿Seria para una Persona Fisica o Moral?" ]
+      },
+      "languageCode": "es"
+    } ]
+  }
+}

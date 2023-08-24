@@ -1,0 +1,23 @@
+{
+  "name": "1d532e3b-daa7-45ee-90b1-a2265651dc55",
+  "displayName": "Recibo de Pago",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "El pago lo puede realizar en uno de los siguientes lugares autorizados:\n\n- OXXO,\n- Farmacia ISSEG,\n- Bancos,\n- Pago En Linea" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "eventHandlers": [ {
+    "targetFlow": "AlgoMas",
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "d8b18b45-6b2c-4c43-86ac-aced60249928"
+  } ]
+}

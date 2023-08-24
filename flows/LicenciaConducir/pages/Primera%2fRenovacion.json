@@ -1,0 +1,29 @@
+{
+  "name": "34f7ebff-5798-46e2-af65-d13949facba9",
+  "displayName": "Primera/Renovacion",
+  "form": {
+    "parameters": [ {
+      "displayName": "tipo-tramite",
+      "required": true,
+      "entityType": "@tipo-tramite",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Que tipo de licencia deseas tramite?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo Lic",
+    "name": "0602c143-0fc4-4fdf-b515-1ff6afffe198"
+  } ]
+}

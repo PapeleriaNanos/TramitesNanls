@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "Kinder",
+    "synonyms": [ "Kinder" ],
+    "languageCode": "es"
+  }, {
+    "value": "Primaria",
+    "synonyms": [ "Primaria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Secundaria",
+    "synonyms": [ "Secundaria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Preparatoria",
+    "synonyms": [ "Preparatoria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Bachillerato",
+    "synonyms": [ "Bachillerato" ],
+    "languageCode": "es"
+  }, {
+    "value": "Licenciatura",
+    "synonyms": [ "Licenciatura" ],
+    "languageCode": "es"
+  }, {
+    "value": "Maestria",
+    "synonyms": [ "Maestria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Especialidad",
+    "synonyms": [ "Especialidad" ],
+    "languageCode": "es"
+  }, {
+    "value": "Doctorado",
+    "synonyms": [ "Doctorado" ],
+    "languageCode": "es"
+  } ]
+}

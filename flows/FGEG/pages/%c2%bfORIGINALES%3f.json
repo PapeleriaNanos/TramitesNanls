@@ -1,0 +1,15 @@
+{
+  "name": "5d195a0a-62b7-42f5-b863-ef9bdd900603",
+  "displayName": "¿ORIGINALES?",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "TRUE",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "AlgoMas",
+    "name": "980ff47d-7a0e-4220-9dd0-480853d51604"
+  } ]
+}

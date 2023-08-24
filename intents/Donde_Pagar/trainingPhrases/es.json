@@ -1,0 +1,91 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "eso donde se paga o ",
+      "auto": true
+    }, {
+      "text": "como"
+    }, {
+      "text": " le hago",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se paga en ",
+      "auto": true
+    }, {
+      "text": "las oficinas",
+      "parameterId": "location",
+      "auto": true
+    }, {
+      "text": " o tengo que hacer el pago antes?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "en"
+    }, {
+      "text": " donde se paga el refrendo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "lo puedo ",
+      "auto": true
+    }, {
+      "text": "pagar en linea",
+      "parameterId": "lugar-pago",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se puede pagar en algun ",
+      "auto": true
+    }, {
+      "text": "banco",
+      "parameterId": "lugar-pago",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "donde se hace el pago del servicio",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "puedo pagar en ",
+      "auto": true
+    }, {
+      "text": "oxxo",
+      "parameterId": "lugar-pago",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "donde se puede realizar el pago",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

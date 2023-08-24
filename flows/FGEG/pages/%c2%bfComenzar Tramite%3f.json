@@ -1,0 +1,30 @@
+{
+  "name": "578498ae-3c13-4524-80f1-ecef0d8a54c7",
+  "displayName": "¿Comenzar Tramite?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "comenzar" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Enviar Documentos",
+    "name": "8c582d44-7ad2-4e53-9f3c-e62df3283c38"
+  }, {
+    "intent": "Confirmar.No",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "AlgoMas",
+    "name": "1ea3216d-54dd-4ade-a5b0-aa3edcb538a7"
+  } ]
+}

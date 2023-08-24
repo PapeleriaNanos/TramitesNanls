@@ -1,0 +1,79 @@
+{
+  "entities": [ {
+    "value": "Oxxo",
+    "synonyms": [ "Oxxo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Farmacia ISSEG",
+    "synonyms": [ "Farmacia ISSEG" ],
+    "languageCode": "es"
+  }, {
+    "value": "Pago en Linea",
+    "synonyms": [ "Pago en Linea" ],
+    "languageCode": "es"
+  }, {
+    "value": "BBVA",
+    "synonyms": [ "BBVA" ],
+    "languageCode": "es"
+  }, {
+    "value": "BANAMEX",
+    "synonyms": [ "BANAMEX" ],
+    "languageCode": "es"
+  }, {
+    "value": "BANCO DEL BAJIO",
+    "synonyms": [ "BANCO DEL BAJIO" ],
+    "languageCode": "es"
+  }, {
+    "value": "BANORTE",
+    "synonyms": [ "BANORTE" ],
+    "languageCode": "es"
+  }, {
+    "value": "BANREGIO",
+    "synonyms": [ "BANREGIO" ],
+    "languageCode": "es"
+  }, {
+    "value": "HSBC",
+    "synonyms": [ "HSBC" ],
+    "languageCode": "es"
+  }, {
+    "value": "SANTANDER",
+    "synonyms": [ "SANTANDER" ],
+    "languageCode": "es"
+  }, {
+    "value": "Banco Azteca",
+    "synonyms": [ "Banco Azteca" ],
+    "languageCode": "es"
+  }, {
+    "value": "Bara",
+    "synonyms": [ "Bara" ],
+    "languageCode": "es"
+  }, {
+    "value": "Casa Ley",
+    "synonyms": [ "Casa Ley" ],
+    "languageCode": "es"
+  }, {
+    "value": "Chedraui",
+    "synonyms": [ "Chedraui" ],
+    "languageCode": "es"
+  }, {
+    "value": "Circle K",
+    "synonyms": [ "Circle K" ],
+    "languageCode": "es"
+  }, {
+    "value": "Extra",
+    "synonyms": [ "Extra" ],
+    "languageCode": "es"
+  }, {
+    "value": "Farmacias Guadalajara",
+    "synonyms": [ "Farmacias Guadalajara" ],
+    "languageCode": "es"
+  }, {
+    "value": "INTERCAM",
+    "synonyms": [ "INTERCAM" ],
+    "languageCode": "es"
+  }, {
+    "value": "Kiosco Gto",
+    "synonyms": [ "Kiosco Gto" ],
+    "languageCode": "es"
+  } ]
+}

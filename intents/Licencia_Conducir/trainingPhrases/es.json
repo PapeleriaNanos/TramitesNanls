@@ -1,0 +1,95 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "renovacion",
+      "parameterId": "tipo-tramite",
+      "auto": true
+    }, {
+      "text": " de ",
+      "auto": true
+    }, {
+      "text": "licencia",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "tipo c",
+      "parameterId": "tipo-licencia",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "licencia",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "licencia de manejar",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "como puedo sacar ",
+      "auto": true
+    }, {
+      "text": "un"
+    }, {
+      "text": " permiso de manejar para ",
+      "auto": true
+    }, {
+      "text": "un"
+    }, {
+      "text": " menor de edad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puede ayudar con el tramite de la "
+    }, {
+      "text": "licencia",
+      "parameterId": "tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito sacar la "
+    }, {
+      "text": "licencia",
+      "parameterId": "tramite"
+    }, {
+      "text": " por "
+    }, {
+      "text": "primera vez",
+      "parameterId": "tipo-tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero "
+    }, {
+      "text": "renovar",
+      "parameterId": "tipo-tramite"
+    }, {
+      "text": " mi "
+    }, {
+      "text": "licencia",
+      "parameterId": "tramite"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

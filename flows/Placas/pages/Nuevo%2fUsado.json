@@ -1,0 +1,36 @@
+{
+  "name": "2f8ae841-596b-446f-9c31-d0f9dd2610c3",
+  "displayName": "Nuevo/Usado",
+  "form": {
+    "parameters": [ {
+      "displayName": "condicion-veh",
+      "required": true,
+      "entityType": "@condicion-veh",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿El vehiculo es Nuevo o Usado?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.condicion-veh = Nuevo",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Nuevo",
+    "name": "bcc2eebc-3069-4431-84f0-69f7c494b449"
+  }, {
+    "condition": "$session.params.condicion-veh = Usado",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Usado",
+    "name": "5870f52a-3b5a-4662-8256-294c2927bb6f"
+  } ]
+}

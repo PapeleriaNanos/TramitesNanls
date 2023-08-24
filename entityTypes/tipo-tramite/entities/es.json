@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Primera Vez",
+    "synonyms": [ "Primera Vez" ],
+    "languageCode": "es"
+  }, {
+    "value": "Renovacion",
+    "synonyms": [ "Renovacion", "renovar" ],
+    "languageCode": "es"
+  }, {
+    "value": "Reposicion",
+    "synonyms": [ "Reposicion", "reponer" ],
+    "languageCode": "es"
+  }, {
+    "value": "Menor Edad",
+    "synonyms": [ "Menor Edad" ],
+    "languageCode": "es"
+  } ]
+}

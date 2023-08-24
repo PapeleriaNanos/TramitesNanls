@@ -1,0 +1,97 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "la cosa ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " que no tengo la factura",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "solo tengo ",
+      "auto": true
+    }, {
+      "text": "una",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " placa porque no encuentro la otra",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se me ",
+      "auto": true
+    }, {
+      "text": "cayo la placa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "perdi la tarjeta de circulacion",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "solo tengo la copia",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es",
+      "auto": true
+    }, {
+      "text": " q solo tengo la copia. esa sirve?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me lo robaron",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es",
+      "auto": true
+    }, {
+      "text": " que no lo encuentro",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se me perdio",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me falta "
+    }, {
+      "text": "un",
+      "parameterId": "number"
+    }, {
+      "text": " documento"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

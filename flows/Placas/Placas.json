@@ -1,0 +1,40 @@
+{
+  "name": "63a20815-2f68-4d39-a940-bdd4f0987c42",
+  "displayName": "Placas",
+  "transitionRoutes": [ {
+    "intent": "Cita_Placas",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Alta/Baja",
+    "name": "82f1d038-3f67-45db-a46f-9ae5cb9c98ce"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "dbe7de83-2aff-4613-8768-a5f126b63560"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "619dc597-63b7-4b84-aa67-1675316bdf02"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

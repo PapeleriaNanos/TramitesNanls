@@ -1,0 +1,75 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tengo que llevar los documentos",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "y que documentos tengo que llevar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que se necesita para sacar el "
+    }, {
+      "text": "pasaporte",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " por "
+    }, {
+      "text": "primera vez",
+      "parameterId": "tipo-tramite"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "documentos obligatorios",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuales son los requisitos que piden",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puede decir que documentos necesito para la "
+    }, {
+      "text": "constancia de antecedentes",
+      "parameterId": "tramite"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuales son los documentos que necesito ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " realizar el tramite de ",
+      "auto": true
+    }, {
+      "text": "placas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

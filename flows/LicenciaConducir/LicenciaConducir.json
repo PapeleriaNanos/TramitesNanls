@@ -1,0 +1,40 @@
+{
+  "name": "7d3bf5c1-de1e-470f-8879-cbe67d864258",
+  "displayName": "LicenciaConducir",
+  "transitionRoutes": [ {
+    "intent": "Licencia_Conducir",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Primera/Renovacion",
+    "name": "abb46285-99fb-4fc0-a468-bd14f4677e01"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "104e601b-da27-45c2-b236-88ce1f28eaa2"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "d9eb175a-d168-4e16-8098-7373da57310d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_MANUAL"
+  }
+}

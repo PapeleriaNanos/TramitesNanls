@@ -1,0 +1,23 @@
+{
+  "name": "9f285423-e626-47ac-abe5-14a8bc05f607",
+  "displayName": "Baja",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Tramite: BAJA DE PLACAS" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Placas GTO/OTRO",
+    "name": "fe75e9d5-5698-4434-a60b-607b6e8ec923"
+  } ]
+}

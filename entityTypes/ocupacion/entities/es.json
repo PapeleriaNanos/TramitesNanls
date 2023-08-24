@@ -1,0 +1,59 @@
+{
+  "entities": [ {
+    "value": "Empleado",
+    "synonyms": [ "Empleado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Desempleado",
+    "synonyms": [ "Desempleado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Comerciante",
+    "synonyms": [ "Comerciante" ],
+    "languageCode": "es"
+  }, {
+    "value": "Jubilado",
+    "synonyms": [ "Jubilado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Ama de Casa",
+    "synonyms": [ "Ama de Casa" ],
+    "languageCode": "es"
+  }, {
+    "value": "Hogar",
+    "synonyms": [ "Hogar" ],
+    "languageCode": "es"
+  }, {
+    "value": "Pensionado",
+    "synonyms": [ "Pensionado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Estudiante",
+    "synonyms": [ "Estudiante" ],
+    "languageCode": "es"
+  }, {
+    "value": "Mecanico",
+    "synonyms": [ "Mecanico" ],
+    "languageCode": "es"
+  }, {
+    "value": "Abogado",
+    "synonyms": [ "Abogado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Meastro",
+    "synonyms": [ "Meastro" ],
+    "languageCode": "es"
+  }, {
+    "value": "Chofer",
+    "synonyms": [ "Chofer" ],
+    "languageCode": "es"
+  }, {
+    "value": "Policia",
+    "synonyms": [ "fspe", "Policia" ],
+    "languageCode": "es"
+  }, {
+    "value": "Guardia Seguridad",
+    "synonyms": [ "guardia", "Guardia Seguridad" ],
+    "languageCode": "es"
+  } ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "91730311-345d-4618-bfe5-4571d005838a",
+  "displayName": "Alta/Baja",
+  "form": {
+    "parameters": [ {
+      "displayName": "tramite",
+      "required": true,
+      "entityType": "@tramite",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es el tramite que deseas realizar? \n1. Alta Vehicular,\n2. Baja de Placas,\n3. Cambio de Propietario", "¿Su cita seria para ALTA, BAJA o CAMBIO PROPIETARIO?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Claro que te puedo ayudar con el tramite de tus placas, para continuar por favor elige una de las siguentes opciones." ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.tramite = \"Cambio Propietario\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Cambio Propietario",
+    "name": "04bfd37e-a806-492c-851b-48b033521662"
+  }, {
+    "condition": "$session.params.tramite = Baja",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Baja",
+    "name": "4b4dabbc-bf3c-4a8a-92d0-893fcb14063e"
+  }, {
+    "condition": "$session.params.tramite = Alta",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Alta",
+    "name": "ea848b94-d41a-4001-9c00-56936b5a3735"
+  } ]
+}

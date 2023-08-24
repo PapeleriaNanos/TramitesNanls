@@ -1,0 +1,42 @@
+{
+  "name": "04692e85-97d3-4c49-a4eb-f6baac622366",
+  "displayName": "Renovacion",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "costo",
+      "value": "$"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo A",
+    "name": "276c6fc1-f8c0-41aa-aa78-aea26404dec2"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo B",
+    "name": "415d197c-b523-4ec9-abfb-93111aad53ed"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo C",
+    "name": "3c92bb1e-e805-43ca-bda2-d8e0fc5d9a93"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo D",
+    "name": "2597d093-127c-4558-9722-60d0e644e001"
+  } ]
+}

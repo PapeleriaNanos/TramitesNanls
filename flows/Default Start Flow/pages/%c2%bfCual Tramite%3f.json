@@ -1,0 +1,52 @@
+{
+  "name": "a62e3aff-4f5d-4e1c-9405-7eca0da18ef9",
+  "displayName": "¿Cual Tramite?",
+  "form": {
+    "parameters": [ {
+      "displayName": "tramite",
+      "entityType": "@tramite",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "3978ba68-455a-4f50-889c-842016a9950a"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Para comenzar por favor dime con cual trámite te puedo ayudar para darte más información:\n1️⃣ Carta Antecedentes No Penales,\n2️⃣ Cita Revisión Vehicular,\n3️⃣ Alta de Placas,\n4️⃣ Baja de Placas,\n5️⃣ Acta de Nacimiento,\n6️⃣ Licencia de Conducir,\n7️⃣ Constancia No Afiliación IMSS/ISSSTE,\n8️⃣ Buró de Crédito,\n9️⃣ Otro Tramite" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Cita_Placas",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Placas",
+    "name": "9f78801d-4ac9-4ede-b2a9-d7d59c190805"
+  }, {
+    "intent": "FGEG",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "FGEG",
+    "name": "9470eb8b-50a9-4fd7-b4bb-ac52fb23b675"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "0a18c26b-0f67-4248-a956-6538628c280e"
+  } ]
+}

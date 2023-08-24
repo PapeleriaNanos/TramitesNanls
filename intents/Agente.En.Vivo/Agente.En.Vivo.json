@@ -1,0 +1,7 @@
+{
+  "name": "3c52ba2a-ae46-465f-8688-b51eb60cfc7f",
+  "displayName": "Agente.En.Vivo",
+  "priority": 500000,
+  "description": "Customer wants to talk to a live agent",
+  "numTrainingPhrases": 7
+}

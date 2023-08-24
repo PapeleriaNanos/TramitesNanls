@@ -1,0 +1,23 @@
+{
+  "name": "6ec5ad2c-9d13-47ac-98ff-9338f475540b",
+  "displayName": "Cita_Placas",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "tramite",
+    "entityType": "@tramite"
+  }, {
+    "id": "municipio",
+    "entityType": "@municipio"
+  }, {
+    "id": "tipo-vehiculo",
+    "entityType": "@tipo-vehiculo"
+  }, {
+    "id": "condicion-veh",
+    "entityType": "@condicion-veh"
+  } ],
+  "priority": 500000,
+  "description": "Customer needs or wants to book a date to do the paperwork",
+  "numTrainingPhrases": 22
+}

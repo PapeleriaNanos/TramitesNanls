@@ -1,0 +1,24 @@
+{
+  "name": "bfc6f578-fffd-42d1-bfaa-b63aed3104a7",
+  "displayName": "Enviar Documentos",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "condition": "$session.params.tramite = \"Carta Antecedentes No Penales\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Datos Antecedentes",
+    "name": "44e3a83b-0e70-48cf-8cb3-b56fba1a13cb"
+  }, {
+    "intent": "Confirmar.Si",
+    "condition": "$session.params.tramite = \"Revision Vehicular\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Datos Revision",
+    "name": "d290ed2c-2b54-46e5-833a-1f778be74be2"
+  } ]
+}

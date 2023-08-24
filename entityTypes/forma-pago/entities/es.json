@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Efectivo",
+    "synonyms": [ "Efectivo" ],
+    "languageCode": "es"
+  }, {
+    "value": "En Linea",
+    "synonyms": [ "En Linea" ],
+    "languageCode": "es"
+  }, {
+    "value": "Transferencia Bancaria",
+    "synonyms": [ "Transferencia Bancaria" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tarjeta",
+    "synonyms": [ "tajeta", "tarjeta de nomina", "tarjeta debito" ],
+    "languageCode": "es"
+  } ]
+}

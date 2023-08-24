@@ -1,0 +1,71 @@
+{
+  "entities": [ {
+    "value": "Acta de Nacimiento",
+    "synonyms": [ "Acta de Nacimiento", "acta nacimiento" ],
+    "languageCode": "es"
+  }, {
+    "value": "Alta",
+    "synonyms": [ "alta", "alta de placas", "alta de placas vehiculares", "Alta Placas", "alta vehicular" ],
+    "languageCode": "es"
+  }, {
+    "value": "Baja",
+    "synonyms": [ "baja", "baja de placas", "baja de vehiculo", "Baja Placas", "baja vehicular" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cedula Profesional",
+    "synonyms": [ "cedula", "Cedula Profesional" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cambio Propietario",
+    "synonyms": [ "cambio de nombre ", "Cambio de Propietario", "cambio prop", "cambio propietario" ],
+    "languageCode": "es"
+  }, {
+    "value": "Carta Antecedentes No Penales",
+    "synonyms": [ "acta antecedentes no penales", "antecedentes no penales", "antecedentes penales", "carta antecedentes", "carta antecedentes penales", "carta penales", "constancia antecedentes", "Constancia Antecedentes No Penales", "constancia no penales" ],
+    "languageCode": "es"
+  }, {
+    "value": "Antecedentes Disciplinarios",
+    "synonyms": [ "acta antecedentes disciplinarios", "Antecedentes Disciplinarios", "constancia de antecedentes disciplinarios" ],
+    "languageCode": "es"
+  }, {
+    "value": "Constancia No Derechohabiente",
+    "synonyms": [ "carta servicio medico", "constancia imss", "constancia no derecho medico", "Constancia No Derechohabiente", "no derecho", "no derecho issste" ],
+    "languageCode": "es"
+  }, {
+    "value": "Constancia No Infraccion",
+    "synonyms": [ "constancia infraccion vehicular", "Constancia No Infraccion", "no infraccion" ],
+    "languageCode": "es"
+  }, {
+    "value": "Constancia Situacion Fiscal",
+    "synonyms": [ "constancia rfc", "Constancia Situacion Fiscal", "situacion fiscal" ],
+    "languageCode": "es"
+  }, {
+    "value": "Certificado Estudios",
+    "synonyms": [ "certificado de prepa", "certificado escolar", "Certificado Estudios" ],
+    "languageCode": "es"
+  }, {
+    "value": "Buro Credito",
+    "synonyms": [ "buro", "Buro Credito", "buro especial", "reporte de buro de credito especial", "reporte de credito" ],
+    "languageCode": "es"
+  }, {
+    "value": "Revision Vehicular",
+    "synonyms": [ "revicion vehicular", "revision", "revision de vehiculo usado", "Revision Vehicular" ],
+    "languageCode": "es"
+  }, {
+    "value": "Pasaporte",
+    "synonyms": [ "Pasaporte" ],
+    "languageCode": "es"
+  }, {
+    "value": "Licencia",
+    "synonyms": [ "licencia", "licencia conducir", "licencia manejar" ],
+    "languageCode": "es"
+  }, {
+    "value": "Numero Seguro Social",
+    "synonyms": [ "# Seguro Social", "nss", "numero seguro", "numero seguro social" ],
+    "languageCode": "es"
+  }, {
+    "value": "Recibo de Nomina",
+    "synonyms": [ "nomina pei", "Recibo de Nomina", "recibo nomina", "recibo pei" ],
+    "languageCode": "es"
+  } ]
+}

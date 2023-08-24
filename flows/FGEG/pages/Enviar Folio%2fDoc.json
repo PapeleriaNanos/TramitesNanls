@@ -1,0 +1,15 @@
+{
+  "name": "6e663f27-c91b-4fef-96e1-f23ba7b30f1e",
+  "displayName": "Enviar Folio/Doc",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "AlgoMas",
+    "name": "671efcbb-6088-4b2c-8590-af490242527a"
+  } ]
+}

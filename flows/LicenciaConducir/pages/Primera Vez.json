@@ -1,0 +1,42 @@
+{
+  "name": "b55ec7fd-0d87-4e13-b152-6f889dcfb8a6",
+  "displayName": "Primera Vez",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "costo",
+      "value": "$"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo A",
+    "name": "ffa49910-db3a-40ab-a8a0-e9c329a3d458"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo B",
+    "name": "1fcc65f2-57ef-4d8e-923e-9127d9168ef1"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo C",
+    "name": "d8a0213e-a0ea-41c0-8601-9e1da1e4f7f7"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tipo D",
+    "name": "1c6d034a-f4b7-468d-ac56-6e82570d9b57"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "f2e88a08-cd1a-4172-8e18-53e2ec825d6d",
+  "displayName": "Requisitos Cita",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Desea Continuar?",
+    "name": "3c672090-737c-491f-9a4a-9844b0ebda50"
+  } ]
+}

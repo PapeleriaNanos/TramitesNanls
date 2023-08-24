@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Tipo A",
+    "synonyms": [ "licencia de carro", "licencia tipo a", "Tipo A" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tipo B",
+    "synonyms": [ "B", "licencia de servicio publico", "Tipo B" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tipo C",
+    "synonyms": [ "C", "licencia de 3.5 toneladas", "licencia de chofer", "Tipo C" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tipo D",
+    "synonyms": [ "D", "licencia para moto", "Tipo D" ],
+    "languageCode": "es"
+  }, {
+    "value": "Permiso Conducir",
+    "synonyms": [ "Permiso Conducir", "permiso para manejar" ],
+    "languageCode": "es"
+  } ]
+}

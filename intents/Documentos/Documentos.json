@@ -1,0 +1,14 @@
+{
+  "name": "34e49220-1e64-4e1e-9e8e-e6c9c0d1ca74",
+  "displayName": "Documentos",
+  "parameters": [ {
+    "id": "tramite",
+    "entityType": "@tramite"
+  }, {
+    "id": "tipo-tramite",
+    "entityType": "@tipo-tramite"
+  } ],
+  "priority": 500000,
+  "description": "Customer wants to know which documents are necesary for the given process.\n",
+  "numTrainingPhrases": 7
+}

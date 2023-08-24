@@ -1,0 +1,22 @@
+{
+  "name": "00cb75fd-26d7-4c5b-b281-2c29738ee120",
+  "displayName": "Confirmacion",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Enviar Folio/Doc",
+    "name": "fae4b582-8e44-46ba-b205-bc7e1f057ff6"
+  }, {
+    "intent": "Confirmar.No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Enviar Documentos",
+    "name": "9d0d173f-6af3-4673-9186-0e32fe7cea95"
+  } ]
+}

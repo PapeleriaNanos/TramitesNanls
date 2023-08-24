@@ -1,0 +1,57 @@
+{
+  "name": "35eeb741-f9da-4fae-8b50-9f4e4f64bfb4",
+  "displayName": "Datos Revision",
+  "form": {
+    "parameters": [ {
+      "displayName": "email",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su COREEO?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "municipio",
+      "required": true,
+      "entityType": "@municipio",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿En cual de los 8 modulos del estado desea su cita?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "telefono",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su NUMERO de TELFONO?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmacion",
+    "name": "f6f84a34-74f9-42bd-bab4-4c82217f1864"
+  } ]
+}

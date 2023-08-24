@@ -1,0 +1,68 @@
+{
+  "name": "a88d573e-afc6-4766-b1b2-4d5b224b98a1",
+  "displayName": "FGEG",
+  "description": "Tramites realizados por la Fiscalia General del Estado de Guanajuato, incluye:\n\n- Revision vehicular\n- Carta antecedentes no penales",
+  "transitionRoutes": [ {
+    "intent": "Falta_Documento",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿ORIGINALES?",
+    "name": "8f05b9c2-d184-4db3-9bf5-cb43cf8a2c41"
+  }, {
+    "intent": "Atras",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Previous Page",
+    "name": "797028f4-5776-4fcf-906f-156546b4d038"
+  }, {
+    "condition": "$session.params.tramite = \"Revision Vehicular\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Revision Vehicular",
+    "name": "27967fde-4131-4092-a7c9-98c078f14124"
+  }, {
+    "condition": "$session.params.tramite = \"Carta Antecedentes No Penales\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Antecedentes Penales",
+    "name": "8bd92289-e5e2-4380-975f-08b694f21ca0"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "d96c09f3-17a0-4134-97fa-90582cf193a3"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "6bec9af6-f266-4972-96d3-04f31387562f"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_MANUAL",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

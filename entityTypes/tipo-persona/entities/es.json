@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Persona Fisica",
+    "synonyms": [ "fisica", "Persona Fisica" ],
+    "languageCode": "es"
+  }, {
+    "value": "Persona Moral",
+    "synonyms": [ "Persona Moral", "moral" ],
+    "languageCode": "es"
+  } ]
+}

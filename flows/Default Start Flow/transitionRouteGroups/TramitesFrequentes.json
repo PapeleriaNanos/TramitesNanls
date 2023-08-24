@@ -1,0 +1,29 @@
+{
+  "name": "11ba7f5f-2261-401a-8746-11669ec89c4d",
+  "displayName": "TramitesFrequentes",
+  "transitionRoutes": [ {
+    "intent": "Cita_Placas",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Gracias por comunicarte con Trámites Nanos, yo soy SANDY, tu Gestor de Tramites Virtual. \r\n📠🖥️☎️📃🚗🏍️📝" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetFlow": "Placas",
+    "name": "c89bf606-ad1b-4be2-bda8-664a58c6a6b4"
+  }, {
+    "intent": "FGEG",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Gracias por comunicarte con Trámites Nanos, yo soy SANDY, tu Gestor de Tramites Virtual. \r\n📠🖥️☎️📃🚗🏍️📝" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetFlow": "FGEG",
+    "name": "319e8a66-9544-4203-8895-4b91ca29bafd"
+  } ]
+}

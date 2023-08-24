@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Hipotecario",
+    "synonyms": [ "credito de casa", "credito de hipoteca", "credito hipotecario", "Hipotecario" ],
+    "languageCode": "es"
+  }, {
+    "value": "Automotriz",
+    "synonyms": [ "Automotriz", "credito automotriz", "credito de carro" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tarjeta Credito",
+    "synonyms": [ "Tarjeta Credito", "tarjeta de credito bancaria" ],
+    "languageCode": "es"
+  } ]
+}

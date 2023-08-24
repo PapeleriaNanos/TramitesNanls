@@ -1,0 +1,15 @@
+{
+  "name": "1a612869-c458-49f6-bc52-6747b6d45c97",
+  "displayName": "¿Desea Continuar?",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.No",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "AlgoMas",
+    "name": "4c9fad3a-ae19-470f-87b3-2ab7b90bc63f"
+  } ]
+}

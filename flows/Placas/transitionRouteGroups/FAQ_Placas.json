@@ -1,0 +1,41 @@
+{
+  "name": "c6c4d1ea-c5c8-4961-b2ca-df3bd8e614bd",
+  "displayName": "FAQ_Placas",
+  "transitionRoutes": [ {
+    "intent": "Cost",
+    "triggerFulfillment": {
+    
+    },
+    "name": "ec77e1a8-8aaf-46fc-93e6-9702db2da938"
+  }, {
+    "intent": "Modulos",
+    "triggerFulfillment": {
+    
+    },
+    "name": "0a54abec-2284-425a-a23b-fc3671a92bf2"
+  }, {
+    "intent": "Disponibilidad_Citas",
+    "triggerFulfillment": {
+    
+    },
+    "name": "e1a9f96d-c53c-4d2b-9a45-e03fd12b0dd8"
+  }, {
+    "intent": "Documentos",
+    "triggerFulfillment": {
+    
+    },
+    "name": "ab2e4a97-6b0e-44b8-b3ad-a765faf22745"
+  }, {
+    "intent": "Otra.Persona.Tramita",
+    "triggerFulfillment": {
+    
+    },
+    "name": "875103d9-2316-4290-b629-9aea7ee3853e"
+  }, {
+    "intent": "Horario",
+    "triggerFulfillment": {
+    
+    },
+    "name": "1e9f9e61-a8fa-4044-a678-6def9b65e4a6"
+  } ]
+}

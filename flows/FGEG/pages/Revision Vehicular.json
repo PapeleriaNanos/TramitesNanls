@@ -1,0 +1,30 @@
+{
+  "name": "bba16cc0-5750-4dab-a3fc-19358b2e5da6",
+  "displayName": "Revision Vehicular",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "REVISION VEHICULAR" ]
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "costo",
+      "value": "$166"
+    }, {
+      "parameter": "servicio",
+      "value": "$85"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Requisitos",
+    "name": "509d1a6c-91c9-4529-abb7-b75866d04f48"
+  } ]
+}

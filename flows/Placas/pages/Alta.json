@@ -1,0 +1,23 @@
+{
+  "name": "d370915c-5eed-4f11-bf1c-63feb2573ccf",
+  "displayName": "Alta",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Tramite: ALTA DE PLACAS" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "TRUE",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Nuevo/Usado",
+    "name": "d8ddb391-fc1f-42b2-aeb0-a047924e5ef5"
+  } ]
+}

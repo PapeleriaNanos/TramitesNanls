@@ -1,0 +1,29 @@
+{
+  "name": "b1afa717-f13d-45f2-a519-633800d15628",
+  "displayName": "FAQ",
+  "transitionRoutes": [ {
+    "intent": "Cost",
+    "triggerFulfillment": {
+    
+    },
+    "name": "67391c75-055c-424f-89c5-4c243dd95910"
+  }, {
+    "intent": "Disponibilidad_Citas",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2e9adc8b-6066-4b88-b356-7a339743f9a2"
+  }, {
+    "intent": "Horario",
+    "triggerFulfillment": {
+    
+    },
+    "name": "4362ed83-0efc-4a68-81ba-e70aea47c2f2"
+  }, {
+    "intent": "Ubicacion",
+    "triggerFulfillment": {
+    
+    },
+    "name": "bf64b1d7-d5a2-48d2-81d1-bc0415661c15"
+  } ]
+}

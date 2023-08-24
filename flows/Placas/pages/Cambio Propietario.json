@@ -1,0 +1,23 @@
+{
+  "name": "c17d4f78-9f67-482b-b483-dd7d973f7018",
+  "displayName": "Cambio Propietario",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Tramite: CAMBIO DE PROPIETARIO" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Placas GTO/OTRO",
+    "name": "c4c15d61-d10b-4caa-b950-4ddb793d01e2"
+  } ]
+}

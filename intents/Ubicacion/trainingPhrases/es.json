@@ -1,0 +1,105 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "cual ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " la dirreccion del ",
+      "auto": true
+    }, {
+      "text": "kiosko",
+      "parameterId": "lugar-pago",
+      "auto": true
+    }, {
+      "text": " que esta por ",
+      "auto": true
+    }, {
+      "text": "altacia",
+      "parameterId": "location",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puedes dar la dirreccion sin esos signos por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "son ",
+      "auto": true
+    }, {
+      "text": "las oficinas"
+    }, {
+      "text": " que estan por ",
+      "auto": true
+    }, {
+      "text": "el crit",
+      "parameterId": "location",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "en",
+      "auto": true
+    }, {
+      "text": " donde estan ",
+      "auto": true
+    }, {
+      "text": "las oficinas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puede mandar ",
+      "auto": true
+    }, {
+      "text": "la ubicacion",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cual ",
+      "auto": true
+    }, {
+      "text": "es la ubicacion",
+      "auto": true
+    }, {
+      "text": " de esas oficinas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "ubicacion",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "donde estan ubicados",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

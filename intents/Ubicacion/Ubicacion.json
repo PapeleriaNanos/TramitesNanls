@@ -1,0 +1,14 @@
+{
+  "name": "6aca3b6d-711e-484f-b74e-836103cca7b4",
+  "displayName": "Ubicacion",
+  "parameters": [ {
+    "id": "location",
+    "entityType": "@sys.location"
+  }, {
+    "id": "lugar-pago",
+    "entityType": "@lugar-pago"
+  } ],
+  "priority": 500000,
+  "description": "Cliente requiere la ubicacion de algun lugar.",
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,19 @@
+{
+  "name": "32eea659-7291-48dc-8eb8-0a39b6011b39",
+  "displayName": "Disponibilidad_Citas",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "municipio",
+    "entityType": "@municipio"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

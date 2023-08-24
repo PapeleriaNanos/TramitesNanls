@@ -1,0 +1,10 @@
+{
+  "name": "012734c8-3867-46a0-8a46-53dab5586387",
+  "displayName": "Confirmar.No",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

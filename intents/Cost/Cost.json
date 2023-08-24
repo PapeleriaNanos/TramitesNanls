@@ -1,0 +1,11 @@
+{
+  "name": "5ed16c3c-f974-4c6f-9e0c-08a048e576f5",
+  "displayName": "Cost",
+  "parameters": [ {
+    "id": "tramite",
+    "entityType": "@tramite"
+  } ],
+  "priority": 500000,
+  "description": "Customer is asking for the price of a certain service o product.\n",
+  "numTrainingPhrases": 5
+}

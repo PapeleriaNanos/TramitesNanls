@@ -1,0 +1,13 @@
+{
+  "name": "aedde9d2-daf8-4465-80bd-65dd23dc90d1",
+  "displayName": "FGEG",
+  "parameters": [ {
+    "id": "tramite",
+    "entityType": "@tramite"
+  }, {
+    "id": "institucion",
+    "entityType": "@institucion"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

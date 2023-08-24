@@ -1,0 +1,16 @@
+{
+  "name": "6342ee5d-dc53-423f-8c90-d703e16b7ead",
+  "displayName": "Licencia_Conducir",
+  "parameters": [ {
+    "id": "tramite",
+    "entityType": "@tramite"
+  }, {
+    "id": "tipo-tramite",
+    "entityType": "@tipo-tramite"
+  }, {
+    "id": "tipo-licencia",
+    "entityType": "@tipo-licencia"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

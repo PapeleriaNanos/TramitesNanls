@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Soltero",
+    "synonyms": [ "Soltero" ],
+    "languageCode": "es"
+  }, {
+    "value": "Union Libre",
+    "synonyms": [ "Union Libre" ],
+    "languageCode": "es"
+  }, {
+    "value": "Casado",
+    "synonyms": [ "Casado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Divorciado",
+    "synonyms": [ "Divorciado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Separado",
+    "synonyms": [ "Separado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Viudo",
+    "synonyms": [ "Viudo" ],
+    "languageCode": "es"
+  } ]
+}

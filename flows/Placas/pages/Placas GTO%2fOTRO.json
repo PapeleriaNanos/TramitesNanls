@@ -1,0 +1,40 @@
+{
+  "name": "c79aaf89-41e7-44ae-85ee-78a2daae2d47",
+  "displayName": "Placas GTO/OTRO",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "El vehiculo cuenta con Placas o Baja del estado?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "condition": "$session.params.tramite = Baja",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Documentacion?",
+    "name": "fa0d3c70-ac00-4b42-872b-0eb2be16087e"
+  }, {
+    "intent": "Confirmar.No",
+    "condition": "$session.params.condicion-veh = Usado",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Revision Vehicular?",
+    "name": "e067d181-7514-492c-a4b9-5a48b2b860c2"
+  }, {
+    "intent": "Confirmar.Si",
+    "condition": "$session.params.condicion-veh = Usado",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Documentacion?",
+    "name": "f480f43d-d78a-4e50-8762-10857af5255a"
+  } ]
+}

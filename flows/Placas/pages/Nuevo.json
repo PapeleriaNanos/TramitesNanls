@@ -1,0 +1,23 @@
+{
+  "name": "96b7cbf1-1141-4179-8dbd-3693847bc9b9",
+  "displayName": "Nuevo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ALTA DE VEHICULO NUEVO, es correcto?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Documentacion?",
+    "name": "c6081ec3-8700-4293-a431-d962d8ec1567"
+  } ]
+}

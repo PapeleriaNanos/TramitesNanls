@@ -1,0 +1,11 @@
+{
+  "name": "e5bab0aa-47cd-4aaa-899a-10beb162da67",
+  "displayName": "Modulos",
+  "parameters": [ {
+    "id": "tramite",
+    "entityType": "@tramite"
+  } ],
+  "priority": 500000,
+  "description": "Cliente quiere saber cuales son los modulos o kisokos de atencion disponibles en su municipio.",
+  "numTrainingPhrases": 5
+}

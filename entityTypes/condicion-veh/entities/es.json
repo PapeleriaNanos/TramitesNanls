@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Nuevo",
+    "synonyms": [ "nueva", "Nuevo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Usado",
+    "synonyms": [ "usada", "Usado", "viejita", "viejo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Extranjero",
+    "synonyms": [ "Extranjero" ],
+    "languageCode": "es"
+  } ]
+}

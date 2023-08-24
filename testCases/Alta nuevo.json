@@ -1,0 +1,117 @@
+{
+  "name": "6f85999d-fac2-42d7-b514-7015574fcbd4",
+  "displayName": "Alta nuevo",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hola"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "¿Cual Tramite?",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Gracias por comunicarte con Trámites Nanos, yo soy SANDY, tu Gestor de Tramites Virtual. \n📠🖥️☎️📃🚗🏍️📝" ]
+      }, {
+        "text": [ "Para comenzar por favor dime con cual trámite te puedo ayudar para darte más información:\n1️⃣ Carta Antecedentes No Penales,\n2️⃣ Cita Revisión Vehicular,\n3️⃣ Alta de Placas,\n4️⃣ Baja de Placas,\n5️⃣ Acta de Nacimiento,\n6️⃣ Licencia de Conducir,\n7️⃣ Constancia No Afiliación IMSS/ISSSTE,\n8️⃣ Buró de Crédito,\n9️⃣ Otro Tramite" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "placas"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Cita_Placas"
+      },
+      "currentPage": {
+        "name": "Alta/Baja",
+        "flow": "Placas"
+      },
+      "textResponses": [ {
+        "text": [ "Claro que te puedo ayudar con el tramite de tus placas, para continuar por favor elige una de las siguentes opciones." ]
+      }, {
+        "text": [ "¿Su cita seria para ALTA, BAJA o CAMBIO PROPIETARIO?" ]
+      } ],
+      "currentFlow": {
+        "name": "Placas"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "alta"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "tramite": "Alta"
+      },
+      "currentPage": {
+        "name": "Nuevo/Usado",
+        "flow": "Placas"
+      },
+      "textResponses": [ {
+        "text": [ "Tramite: ALTA DE PLACAS" ]
+      }, {
+        "text": [ "El vehiculo es NUEVO o USADO?" ]
+      } ],
+      "currentFlow": {
+        "name": "Placas"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "nuevo"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "tipo-vehiculo": "Nuevo",
+        "tramite": "Alta"
+      },
+      "currentPage": {
+        "name": "Nuevo/Usado",
+        "flow": "Placas"
+      },
+      "currentFlow": {
+        "name": "Placas"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1683437739,
+    "nanos": 238563000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

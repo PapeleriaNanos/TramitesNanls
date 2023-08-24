@@ -1,0 +1,30 @@
+{
+  "name": "b797a383-2558-4630-b0f0-d1297a90e78a",
+  "displayName": "¿Ya Pago?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ya realizo el pago del tramite?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Recibo de Pago",
+    "name": "42be4dfb-a049-48e8-9d23-643145ce1757"
+  }, {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "¿Comenzar Tramite?",
+    "name": "2f948968-6fe8-4743-bba4-9a0b445425e0"
+  } ]
+}

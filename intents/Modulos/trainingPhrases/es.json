@@ -1,0 +1,65 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tendra disponibilidad ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " algun ",
+      "auto": true
+    }, {
+      "text": "kiosko"
+    }, {
+      "text": " o solo ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " oficinas?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tiene mas oficinas en "
+    }, {
+      "text": "guanajuato"
+    }, {
+      "text": " o es la unica?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que modulos tiene disponible en ",
+      "auto": true
+    }, {
+      "text": "irapuato"
+    }, {
+      "text": " para cita de ",
+      "auto": true
+    }, {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "modulos de atencion",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuales son los modulos disponibles",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

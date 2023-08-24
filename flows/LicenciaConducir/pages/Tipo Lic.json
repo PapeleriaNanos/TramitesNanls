@@ -1,0 +1,43 @@
+{
+  "name": "c872f761-4104-4158-9a94-fc13551daa67",
+  "displayName": "Tipo Lic",
+  "form": {
+    "parameters": [ {
+      "displayName": "tipo-licencia",
+      "required": true,
+      "entityType": "@tipo-licencia",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Que tipo de licencia deseas tramitar?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Primera Vez",
+    "name": "c8ed4495-f477-4aa8-99be-904e18e006b3"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Renovacion",
+    "name": "6e16d4eb-e23b-4c52-809a-7ab71c81a0a0"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Permiso Conducir",
+    "name": "6617db95-017f-46cf-b4ea-1bb58bf9ce2f"
+  } ]
+}

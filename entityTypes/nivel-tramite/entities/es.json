@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Municipal",
+    "synonyms": [ "Municipal" ],
+    "languageCode": "es"
+  }, {
+    "value": "Estatal",
+    "synonyms": [ "Estatal" ],
+    "languageCode": "es"
+  }, {
+    "value": "Federal",
+    "synonyms": [ "Federal" ],
+    "languageCode": "es"
+  }, {
+    "value": "Internacional",
+    "synonyms": [ "Internacional" ],
+    "languageCode": "es"
+  } ]
+}

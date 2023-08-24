@@ -1,0 +1,80 @@
+{
+  "name": "70df3bfa-a659-4ec2-a044-aabdacff5f9f",
+  "displayName": "Datos Antecedentes",
+  "form": {
+    "parameters": [ {
+      "displayName": "estado-civil",
+      "required": true,
+      "entityType": "@estado-civil",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su ESTADI CIVIL?\nEjemplos:\n- Solter@\n- Casad@\n- Union Libre" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "ocupacion",
+      "required": true,
+      "entityType": "@ocupacion",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su OCUPACION?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "nombre-pareja",
+      "entityType": "@sys.person",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "N/A"
+    }, {
+      "displayName": "email",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su CORREO?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "telefono",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "¿Cual es su NUMERO de TELEFONO?" ]
+            },
+            "languageCode": "es"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmacion",
+    "name": "3e785b5d-6b5b-4d0c-9dc5-a620e48a9818"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "hola amigo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hola buen dia",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "buenos dias",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "id": "1ec17981-00fe-4ad2-8b51-29ce85b6c59c",
+    "parts": [ {
+      "text": "hola",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "id": "ee8bb7a0-e024-4a58-b5d7-edc8c7b159e6",
+    "parts": [ {
+      "text": "hey",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "id": "9d64bd51-448f-4bef-9e6f-84e8a082f554",
+    "parts": [ {
+      "text": "saludos",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "id": "a2a8c20b-4f95-496e-a6f1-bfb82a7a28b1",
+    "parts": [ {
+      "text": "hey ho",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "id": "acdc94eb-253a-401b-a294-4eb3de3cdb7b",
+    "parts": [ {
+      "text": "chao",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

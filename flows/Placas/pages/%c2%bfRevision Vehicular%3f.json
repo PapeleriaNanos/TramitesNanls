@@ -1,0 +1,38 @@
+{
+  "name": "2664e1db-5573-4bcf-96df-5235c77c92a5",
+  "displayName": "¿Revision Vehicular?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Antes de continuar le menciono que el estado de Guanajuato requiere que todos los vehiculos provenientes de otra entidad federativa se presenten a la REVISION VEHICULAR." ]
+      },
+      "languageCode": "es"
+    }, {
+      "text": {
+        "text": [ "¿Ya cuenta con su Revision Vehicular?" ]
+      },
+      "languageCode": "es"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirmar.Si",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Requisitos Cita",
+    "name": "1d12535c-fba2-4d5b-9068-e762b9a0cbe2"
+  }, {
+    "intent": "Confirmar.No",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "tramite",
+        "value": "Revision Vehicular"
+      } ]
+    },
+    "targetFlow": "FGEG",
+    "name": "d3ec570a-6083-4bb3-a7f9-01982c50e6b9"
+  } ]
+}

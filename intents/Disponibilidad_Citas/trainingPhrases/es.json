@@ -1,0 +1,93 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tendra ",
+      "auto": true
+    }, {
+      "text": "citas"
+    }, {
+      "text": " para ",
+      "auto": true
+    }, {
+      "text": "esta semana",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pa cuando hay ",
+      "auto": true
+    }, {
+      "text": "citas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito "
+    }, {
+      "text": "una",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " cita para el "
+    }, {
+      "text": "jueves a las 4",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " en "
+    }, {
+      "text": "leon",
+      "parameterId": "municipio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuando tiene ",
+      "auto": true
+    }, {
+      "text": "citas"
+    }, {
+      "text": " libres",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuando tiene la cita "
+    }, {
+      "text": "mas proxima",
+      "parameterId": "date-time"
+    }, {
+      "text": " en "
+    }, {
+      "text": "acambaro",
+      "parameterId": "location",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tiene citas disponibles para "
+    }, {
+      "text": "esta semana",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " en "
+    }, {
+      "text": "celaya",
+      "parameterId": "municipio"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

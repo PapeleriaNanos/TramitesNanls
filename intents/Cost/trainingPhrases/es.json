@@ -1,0 +1,69 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "que precio tiene la ",
+      "auto": true
+    }, {
+      "text": "revision vehicular",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuanto cuesta el tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que costo tiene dar de ",
+      "auto": true
+    }, {
+      "text": "alta",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "carro",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuanto cuesta la ",
+      "auto": true
+    }, {
+      "text": "baja",
+      "parameterId": "tramite",
+      "auto": true
+    }, {
+      "text": " de placas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que precio tiene la ",
+      "auto": true
+    }, {
+      "text": "acta de nacimiento",
+      "parameterId": "tramite",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}
